@@ -1,6 +1,6 @@
 ﻿class Example{
 
-    public  static void showArray<T>(T[] arr) {
+    public  static void showArray<T>(T[] arr) {// T is placeholder ,which can hold all types of datatype...
 
         for   (int i=0;i<arr.Length;i++){
             Console.WriteLine(arr[i]);
@@ -8,6 +8,8 @@
 
     }
 }
+
+//generics   replace these placeholders with some type at compile time...
 
 
 class Program{
